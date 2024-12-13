@@ -22,6 +22,7 @@ The Library Management System is a C++ application designed to manage books and 
 
 ## File Structure
 
+```
 library_management_system/
 ├── Book.cpp         # Implementation of Book and derived classes
 ├── Book.h           # Header file for Book and derived classes
@@ -29,6 +30,7 @@ library_management_system/
 ├── Member.h         # Header file for Member class
 ├── globals.h        # Global variables and includes
 └── main.cpp         # Main application logic
+```
 
 ## Getting Started
 
@@ -41,13 +43,13 @@ library_management_system/
 
 To compile the project, navigate to the 'library_management_system' directory and run the following command:
 
-'g++ main.cpp Book.cpp Member.cpp -o LibraryManagementSystem'
+`g++ main.cpp Book.cpp Member.cpp -o LibraryManagementSystem`
 
 ### Running the Application
 
 After compiling, run the application using the following command:
 
-'./LibraryManagementSystem'
+`./LibraryManagementSystem`
 
 ### Usage
 
